@@ -17,4 +17,6 @@ public final class CalculatorService {
     public int add(Collection<Integer> numbers) {
         return numbers.stream().reduce(0, CalculatorAlgo::add);
     }
+
+    public int multiply(Collection<Integer> numbers) { return 0; }
 }
