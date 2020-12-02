@@ -25,6 +25,6 @@ public class AppTest
     @Test
     public void shouldMultTwoNumbers()
     {
-        assertEquals("2 * 3 should be 5", 6, App.computeMult(new String[]{"2", "3"}));
+        assertEquals("2 * 3 should be 6", 6, App.computeMult(new String[]{"2", "3"}));
     }
 }
